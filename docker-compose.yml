@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  deip_node:
+    image: deipdev/testnet:latest
+    build:
+      context: .
+    restart: on-failure
+    ports:
+    - "8090:8090"
+    - "2001:2001"
+    expose:
+    - "8090"
+    - "2001"
+    env_file:
+    - deip-config.env
+    volumes:
+    - ./data:/var/lib/deipd
