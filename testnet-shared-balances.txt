@@ -1,0 +1,91 @@
+{
+    "name": "alice",
+    "recovery_account": "",
+    "public_key": "DEIP52Xh45F7F7xZqC5ZQAteFCNrDtys12exDo4TMqvQrJW2GLNT83",
+    "deip_amount": 100000000000,
+    "sp_amount": 0
+}, {
+    "name": "bob",
+    "recovery_account": "",
+    "public_key": "DEIP5SKiHdSzMGPpPfTGKMWg4YFGKbevp6AeGScP9VvPmn27bxcUdi",
+    "deip_amount": 100000000000,
+    "sp_amount": 0
+}, {
+    "name": "mike",
+    "recovery_account": "",
+    "public_key": "DEIP8bwPxtWUEffTs7C8vRNT98Sv7XGCVDWCXVUeHvtNH5TxvrwVLj",
+    "deip_amount": 50000000000,
+    "sp_amount": 0
+}, {
+    "name": "john",
+    "recovery_account": "",
+    "public_key": "DEIP5mFLmqoifrz3c9iTmFVpxjU29QjyKSGiKZf7GUM2T6cJpm6Gb7",
+    "deip_amount": 50000000000,
+    "sp_amount": 0
+}, {
+    "name": "rachel",
+    "recovery_account": "",
+    "public_key": "DEIP7NAFzGdNUBhR1B3bf9g38yy4qEENJK1TSff2YdSstLQ6ztXrG6",
+    "deip_amount": 50000000000,
+    "sp_amount": 0
+}, {
+    "name": "james",
+    "recovery_account": "",
+    "public_key": "DEIP7gp8xGzRdzVHqyiCbBqQn2FqUV1h94iwFwtS6RuqdaseyYgwEk",
+    "deip_amount": 50000000000,
+    "sp_amount": 0
+}, {
+    "name": "rick",
+    "recovery_account": "",
+    "public_key": "DEIP7uK6Q7aXjdUL6M6b2s8YdnJ9pbf7UHKPhjHqpFdmypFSUDFUTp",
+    "deip_amount": 100000000000,
+    "sp_amount": 0
+}, {
+    "name": "alex",
+    "recovery_account": "",
+    "public_key": "DEIP5YJaWc5RSQHnqd8pSmaWdqQhNGGEeiesgUZ34hAYM9VDdikabE",
+    "deip_amount": 50000000000,
+    "sp_amount": 0
+}, {
+    "name": "anastasia",
+    "recovery_account": "",
+    "public_key": "DEIP5qm2iZaNGGcWqpJwnWmHjPorXZZBhudRp5jQSGfkrLphoLcQTh",
+    "deip_amount": 50000000000,
+    "sp_amount": 0
+}, {
+    "name": "nick",
+    "recovery_account": "",
+    "public_key": "DEIP7SRfpY6Un2YBTa2y1ec5gju7s4MwqzQx8p8GDqZEFPewAJLVu7",
+    "deip_amount": 50000000000,
+    "sp_amount": 0
+}, {
+    "name": "carla",
+    "recovery_account": "",
+    "public_key": "DEIP76KbisFA4j9g9h9o7HLKXtn2LcW8ygULkP7paHtuAouZG6hL2F",
+    "deip_amount": 50000000000,
+    "sp_amount": 0
+}, {
+    "name": "irene",
+    "recovery_account": "",
+    "public_key": "DEIP5K19FrzAJmWJpVrMUQPHQ1vzSY5Y4H517AUp6pTnunaJdBtDYc",
+    "deip_amount": 50000000000,
+    "sp_amount": 0
+}, {
+    "name": "sherlock",
+    "recovery_account": "",
+    "public_key": "DEIP8Y6vwKDcTLYy5ywFXQEdz9SLVgJNtnM5epwX5F6fwGnjbJfPfX",
+    "deip_amount": 50000000000,
+    "sp_amount": 0
+}, {
+    "name": "greg",
+    "recovery_account": "",
+    "public_key": "DEIP6pqCE6hhqypsttExd87EXbdiSjUPCq72kz3uH3F5LJyzZUtVL8",
+    "deip_amount": 50000000000,
+    "sp_amount": 0
+}, {
+    "name": "doroty",
+    "recovery_account": "",
+    "public_key": "DEIP57FNGfhjgz2TuRby5RrV4AgzEtM89zmn1yMdw8RqBD74ZEZZXm",
+    "deip_amount": 50000000000,
+    "sp_amount": 0
+}

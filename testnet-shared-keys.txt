@@ -1,0 +1,74 @@
+"alice": [{
+    "private_key": "5JGoCjh27sfuCzp7kQme5yMipaQtgdVLPiZPr9zaCwJVrSrbGYx",
+    "public_key": "DEIP52Xh45F7F7xZqC5ZQAteFCNrDtys12exDo4TMqvQrJW2GLNT83"
+}],
+
+"bob": [{
+    "private_key": "5JgsnUtjj3gpgpFMMpbXFJFVfLAsiq1tJQ7ZdBBuyaU1RFVevU2",
+    "public_key": "DEIP5SKiHdSzMGPpPfTGKMWg4YFGKbevp6AeGScP9VvPmn27bxcUdi"
+}],
+
+"mike": [{
+    "private_key": "5JCnS7e48t3p6wK9wJDhbctQ69CUbi1N9BUsLFAzY9ANLF6EVGP",
+    "public_key": "DEIP8bwPxtWUEffTs7C8vRNT98Sv7XGCVDWCXVUeHvtNH5TxvrwVLj"
+}],
+
+"john": [{
+    "private_key": "5Jzb8quFdo3mXaZEWsTq16j2HLpG65jGUdvWqdcsGHX8FS1k4iT",
+    "public_key": "DEIP5mFLmqoifrz3c9iTmFVpxjU29QjyKSGiKZf7GUM2T6cJpm6Gb7"
+}],
+
+"rachel": [{
+    "private_key": "5K7ftAZ6eJCGCP3mNr1wh56RpyZKfgt2AyivHn9pWVJFxmG8kmX",
+    "public_key": "DEIP7NAFzGdNUBhR1B3bf9g38yy4qEENJK1TSff2YdSstLQ6ztXrG6"
+}],
+
+"james": [{
+    "private_key": "5JTFNZETXD3huHnVtvWx8mJoB5u4zFcNKctiz7SYpYArKFknpxk",
+    "public_key": "DEIP7gp8xGzRdzVHqyiCbBqQn2FqUV1h94iwFwtS6RuqdaseyYgwEk"
+}],
+
+"rick": [{
+    "private_key": "5HzDaSLBuJ87oxYikzEEYnn8FBS65BBU34zKsbdonQxV7hhW38q",
+    "public_key": "DEIP7uK6Q7aXjdUL6M6b2s8YdnJ9pbf7UHKPhjHqpFdmypFSUDFUTp"
+}],
+
+"alex": [{
+    "private_key": "5KSaWMyUJxrShvAhunacCYCa3whX78HS8hBw79TKJscc1rztWKJ",
+    "public_key": "DEIP5YJaWc5RSQHnqd8pSmaWdqQhNGGEeiesgUZ34hAYM9VDdikabE"
+}],
+
+"anastasia": [{
+    "private_key": "5K1UPWFrd8V9XFow5zPWcZZCEnAmuJUWbYtCZnZLRXvwRsj4Uyv",
+    "public_key": "DEIP5qm2iZaNGGcWqpJwnWmHjPorXZZBhudRp5jQSGfkrLphoLcQTh"
+}],
+
+"nick": [{
+    "private_key": "5JaEUU5k3hT78cD6qWKrbMLwzFu9UT8g1sFDbGhnL4fUzh8VkYk",
+    "public_key": "DEIP7SRfpY6Un2YBTa2y1ec5gju7s4MwqzQx8p8GDqZEFPewAJLVu7"
+}],
+
+"carla": [{
+    "private_key": "5JZQEd4jWXoxaxphm8QQ9WNL5VVJEcBWoQKLNPxZh2mgXhm9LuJ",
+    "public_key": "DEIP76KbisFA4j9g9h9o7HLKXtn2LcW8ygULkP7paHtuAouZG6hL2F"
+}],
+
+"irene": [{
+    "private_key": "5JzT1c4jbQCK4de2XTRUkbX8JhQH9dtYwDXSyDNHchdbEqHkFGZ",
+    "public_key": "DEIP5K19FrzAJmWJpVrMUQPHQ1vzSY5Y4H517AUp6pTnunaJdBtDYc"
+}],
+
+"sherlock": [{
+    "private_key": "5J2Qk7w8juKid6hzJyGHz26rsbs2irNjT7vZawfeFN4gasoQ8A6",
+    "public_key": "DEIP8Y6vwKDcTLYy5ywFXQEdz9SLVgJNtnM5epwX5F6fwGnjbJfPfX"
+}],
+
+"greg": [{
+    "private_key": "5KNQhXrfydk2FmBoh37ULwznjEeYhU2QvqEjW5tReFKhy4MbbmP",
+    "public_key": "DEIP6pqCE6hhqypsttExd87EXbdiSjUPCq72kz3uH3F5LJyzZUtVL8"
+}],
+
+"doroty": [{
+    "private_key": "5JZjvuDKf9xovEqkSC9vvGf3e4HfyyUEeL6pHSdHZT355nW75sr",
+    "public_key": "DEIP57FNGfhjgz2TuRby5RrV4AgzEtM89zmn1yMdw8RqBD74ZEZZXm"
+}],
