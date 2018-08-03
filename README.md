@@ -22,10 +22,10 @@ docker-compose up
 ```
 
 ### More documentation
-[How to run testnet node with docker](https://github.com/DEIPworld/deip-testnet/docs/blob/master/how-to-run-testnet-node-with-docker.md)
+[How to run testnet node with docker](https://github.com/DEIPworld/deip-testnet/blob/master/docs/how-to-run-testnet-node-with-docker.md)
 
-[How to create account using wallet](https://github.com/DEIPworld/deip-testnet/docs/blob/master/create-account-using-wallet.md)
+[How to create account using wallet](https://github.com/DEIPworld/deip-testnet/blob/master/docs/create-account-using-wallet.md)
 
-[How to become a witness](https://github.com/DEIPworld/deip-testnet/docs/blob/master/how-to-become-a-witness.md)
+[How to become a witness](https://github.com/DEIPworld/deip-testnet/blob/master/docs/how-to-become-a-witness.md)
 
-[Wallet](https://github.com/DEIPworld/deip-testnet/docs/blob/master/wallet.md)
+[Wallet](https://github.com/DEIPworld/deip-testnet/blob/master/docs/wallet.md)

@@ -1,6 +1,6 @@
 # Becoming a witness
 
-1. Сreate an account using wallet [see this tutorial](https://github.com/DEIPworld/deip-testnet/docs/blob/master/create-account-using-wallet.md) and remember the private active key
+1. Сreate an account using wallet [see this tutorial](https://github.com/DEIPworld/deip-testnet/blob/master/docs/create-account-using-wallet.md) and remember the private active key
 2. Import your account key to wallet
 3. To become a witness execute `update_witness` command with following parameters: account name, your witness url, your block signing key (public key), your proposed chain properties (account creation fee & maximum block size), boolean showing whether or not you want to broadcast this transaction.
 Chain properties object can be empty (default account creation fee & maximum block size values will be used), or user defined in form `{"account_creation_fee":"1.000 TESTS","maximum_block_size":65536}`

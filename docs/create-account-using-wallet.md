@@ -6,7 +6,7 @@ For testnet users we prepared [shared accounts](https://github.com/DEIPworld/dei
 
 ## Create account with keys
 
-1. Start wallet [see this tutorial](https://github.com/DEIPworld/deip-testnet/blob/master/wallet.md)
+1. Start wallet [see this tutorial](https://github.com/DEIPworld/deip-testnet/blob/master/docs/wallet.md)
 2. Set password for wallet file
 ```
 set_password yourSecretPassword
