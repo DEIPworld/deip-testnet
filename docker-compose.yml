@@ -1,10 +1,8 @@
 version: "3"
 
 services:
-  deip_node:
-    image: deipdev/testnet:latest
-    build:
-      context: .
+  node:
+    image: deipdev/testnet:node_latest
     restart: on-failure
     ports:
     - "8090:8090"
@@ -13,6 +11,24 @@ services:
     - "8090"
     - "2001"
     env_file:
-    - deip-config.env
+    - node-config.env
     volumes:
     - ./data:/var/lib/deipd
+  full_node:
+    image: deipdev/testnet:fullnode_latest
+    restart: on-failure
+    ports:
+    - "8090:8090"
+    - "2001:2001"
+    expose:
+    - "8090"
+    - "2001"
+    env_file:
+    - fullnode-config.env
+    volumes:
+    - ./data:/var/lib/deipd
+  wallet:
+    image: deipdev/testnet:wallet_latest
+    restart: on-failure
+    volumes:
+    - ./data:/var/lib/wallet

@@ -22,6 +22,6 @@ Now you can verify your account received votes by running `get_witness` command
 get_witness "yourAccountName"
 ```
 
-When your witness gets enough votes, you can start a witness node by providing DEIPD_WITNESS_NAME and DEIPD_PRIVATE_KEY parameters in `deip-config.env` and it will start producing blocks
+When your witness gets enough votes, you can start a witness node by providing DEIPD_WITNESS_NAME and DEIPD_PRIVATE_KEY parameters in `fullnode-config.env` and it will start producing blocks
 
 

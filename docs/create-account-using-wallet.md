@@ -33,11 +33,11 @@ For this example, let's say following keys were generated
   "pub_key": "DEIP6ioSfo5gbaP3YJ3G7ivXATXSLbFLURsB4Y1MmgBFjfepW9qm6u"
 }
 ```
-6. Create account. This method takes following parameters: creator name, new account name, json metadata (can leave empty), owner key, active key, posting key, memo, and boolean showing whether or not you want to broadcast this transaction
+6. Create account. This method takes following parameters: creator name, new account name, json metadata (can leave empty), owner key, active key, posting key, memo, fee and boolean showing whether or not you want to broadcast this transaction
 ```
 create_account_with_keys "alice" "yourAccountName" "" DEIP6ioSfo5gbaP3YJ3G7ivXATXSLbFLURsB4Y1MmgBFjfepW9qm6u \
  DEIP6ioSfo5gbaP3YJ3G7ivXATXSLbFLURsB4Y1MmgBFjfepW9qm6u DEIP6ioSfo5gbaP3YJ3G7ivXATXSLbFLURsB4Y1MmgBFjfepW9qm6u \
- DEIP6ioSfo5gbaP3YJ3G7ivXATXSLbFLURsB4Y1MmgBFjfepW9qm6u true
+ DEIP6ioSfo5gbaP3YJ3G7ivXATXSLbFLURsB4Y1MmgBFjfepW9qm6u "10.000 TESTS" true
 ```
 
 After transaction was included in block, your account should be created. To verify your account exists run following command:
