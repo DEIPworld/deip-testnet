@@ -40,7 +40,11 @@ You can also set `DEIPD_SEED_NODES` parameter if you want your node to connect t
 
 5. Launch the node in detached mode
 ```
-docker-compose run node
+docker-compose run -d node
+```
+After container starts, you will see container name like 'deip-testnet_node_run_1' printed in console. Use this name to stop the container using command:
+```
+docker stop deip-testnet_node_run_1
 ```
 
 If your account is already selected to active witnesses list, your node will start producing blocks. If not, follow [this instructions](https://github.com/DEIPworld/deip-testnet/blob/master/docs/how-to-become-a-witness.md) to become a witness.
@@ -50,7 +54,11 @@ To run a full node no special configuration required. If you want to set seed no
 
 Launch the node in detached mode
 ```
-docker-compose run full_node
+docker-compose run -d full_node
+```
+After container starts, you will see container name like 'deip-testnet_full_node_run_1' printed in console. Use this name to stop the container using command:
+```
+docker stop deip-testnet_full_node_run_1
 ```
 
 #### More node configurations
