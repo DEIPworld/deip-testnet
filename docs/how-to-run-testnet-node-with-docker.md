@@ -42,7 +42,7 @@ You can also set `DEIPD_SEED_NODES` parameter if you want your node to connect t
 ```
 docker-compose run -d node
 ```
-After container starts, you will see container name like 'deip-testnet_node_run_1' printed in console. Use this name to stop the container using command:
+After container starts, you will see container name like `deip-testnet_node_run_1` printed in console. Use this name to stop the container using command:
 ```
 docker stop deip-testnet_node_run_1
 ```
@@ -56,7 +56,7 @@ Launch the node in detached mode
 ```
 docker-compose run -d full_node
 ```
-After container starts, you will see container name like 'deip-testnet_full_node_run_1' printed in console. Use this name to stop the container using command:
+After container starts, you will see container name like `deip-testnet_full_node_run_1` printed in console. Use this name to stop the container using command:
 ```
 docker stop deip-testnet_full_node_run_1
 ```
