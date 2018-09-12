@@ -12,8 +12,6 @@ services:
     - "2001"
     env_file:
     - node-config.env
-    volumes:
-    - ./data:/var/lib/deipd
   full_node:
     image: deipdev/testnet:fullnode_latest
     restart: on-failure
@@ -25,8 +23,6 @@ services:
     - "2001"
     env_file:
     - fullnode-config.env
-    volumes:
-    - ./data:/var/lib/deipd
   wallet:
     image: deipdev/testnet:wallet_latest
     restart: on-failure

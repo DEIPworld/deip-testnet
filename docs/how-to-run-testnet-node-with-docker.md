@@ -4,7 +4,7 @@ There are two types of nodes in DEIP blockchain: **low-memory node** and **full 
 
 Low-memory node only stores blockchain important data and is suitable for:
  - seed nodes
- - witness nodes
+ - block producer nodes
  - exchanges, etc.
 
 Full node stores *all* the data (including data for supporting content web site) and has all plugins and APIs enabled.
@@ -40,7 +40,7 @@ You can also set `DEIPD_SEED_NODES` parameter if you want your node to connect t
 
 5. Launch the node in detached mode
 ```
-docker-compose run node
+docker-compose up node
 ```
 
 If your account is already selected to active witnesses list, your node will start producing blocks. If not, follow [this instructions](https://github.com/DEIPworld/deip-testnet/blob/master/docs/how-to-become-a-witness.md) to become a witness.
@@ -50,8 +50,5 @@ To run a full node no special configuration required. If you want to set seed no
 
 Launch the node in detached mode
 ```
-docker-compose run full_node
+docker-compose up full_node
 ```
-
-#### More node configurations
-After you started your node, there will be `config.ini` configuration file in `data` folder. You can make more configuration for your node there.
