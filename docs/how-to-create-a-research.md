@@ -10,7 +10,7 @@
 - id of research group
 - percent of reward to share with reviewers (0 to 5000)
 - percent of research tokens to leave to dropped author (0 to 5000)
-- list of disciplines ids (i.e. [8, 152])
+- list of disciplines ids (i.e. `[8, 152]`)
 - broadcast: boolean showing whether or not you want to broadcast this transaction
 ```
 propose_create_research "yourAccountName" "research title" "research abstract" "research-permlink" 0 0 1000 [0, 100] true
