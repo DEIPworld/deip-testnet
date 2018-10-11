@@ -15,14 +15,24 @@ cd deip-testnet
 docker-compose pull
 ```
 
-## Instructions
+## Instructions and workflows
 
 [Wallet](https://github.com/DEIPworld/deip-testnet/blob/master/docs/wallet.md)
 
 [How to run testnet node with docker](https://github.com/DEIPworld/deip-testnet/blob/master/docs/how-to-run-testnet-node-with-docker.md)
 
+[How to resync node](https://github.com/DEIPworld/deip-testnet/blob/master/docs/resync-node.md)
+
 [How to create account using wallet](https://github.com/DEIPworld/deip-testnet/blob/master/docs/create-account-using-wallet.md)
 
 [How to become a Block Producer](https://github.com/DEIPworld/deip-testnet/blob/master/docs/how-to-become-a-block-producer.md)
 
-[How to resync node](https://github.com/DEIPworld/deip-testnet/blob/master/docs/resync-node.md)
+[How to create a research group](https://github.com/DEIPworld/deip-testnet/blob/master/docs/how-to-create-a-research-group.md)
+
+[How to create a research](https://github.com/DEIPworld/deip-testnet/blob/master/docs/how-to-create-a-research.md)
+
+[How to create a research content](https://github.com/DEIPworld/deip-testnet/blob/master/docs/how-to-create-research-content.md)
+
+[How to invite member to research group](https://github.com/DEIPworld/deip-testnet/blob/master/docs/invite-to-research-group.md)
+
+[How to exclude member from research group](https://github.com/DEIPworld/deip-testnet/blob/master/docs/exclude-from-research-group.md)
