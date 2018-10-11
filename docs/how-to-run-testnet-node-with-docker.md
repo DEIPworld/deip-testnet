@@ -38,9 +38,14 @@ To make it easier to run a witness node, there is `node-config.env` that allows 
 
 You can also set `DEIPD_SEED_NODES` parameter if you want your node to connect to already running nodes. Whitespace delimited list of seed nodes (with port).
 
-5. Launch the node in detached mode
+5. Launch the node
 ```
 docker-compose up node
+```
+
+To launch in detached mode 
+```
+docker-compose up -d node
 ```
 
 If your account is already selected to active witnesses list, your node will start producing blocks. If not, follow [this instructions](https://github.com/DEIPworld/deip-testnet/blob/master/docs/how-to-become-a-witness.md) to become a witness.
@@ -48,7 +53,25 @@ If your account is already selected to active witnesses list, your node will sta
 #### Full node
 To run a full node no special configuration required. If you want to set seed nodes for full node, you can do it in `fullnode-config.env`.
 
-Launch the node in detached mode
+Launch the full node 
 ```
 docker-compose up full_node
+```
+
+To launch in detached mode 
+```
+docker-compose up -d full_node
+```
+
+#### Attach to running node
+To see the output of node running in detached mode use `docker attach` command. Ypu need to know container id or name to connect to it. 
+
+Get list of running containers: 
+```
+docker ps
+```
+
+You will see id, name and some other properties of all running containers. Once you have the id (for example purpose we will use `f92768f1dd89`):
+```
+docker attach f92768f1dd89
 ```

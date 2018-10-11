@@ -18,14 +18,14 @@ docker-compose pull
 
 4. Execute command
 ```
-docker-compose run wallet -w /var/lib/wallet/wallet.json -s ws://82.196.2.5:8090
+docker-compose run --rm wallet
 ```
-After this wallet will start and connect to node at 82.196.2.5 (Full-Node supported by DEIP). You can specify different address if you want to connect to different node.
+After this wallet will start and connect to node at 82.196.2.5 (Full-Node supported by DEIP). You can specify different address using `-s ws://your_node_ip:your_node_port` (i.e. `-s ws://127.0.0.1:8090`) if you want to connect to different node.
 Wallet file is saved to `data` folder.
 
 To stop the wallet, press `Ctrl + P`, `Ctrl + Q`.
 
-To get list of all available arguments execute:
+To get list of all available methods execute:
 ```
 docker-compose run wallet --help
 ```
