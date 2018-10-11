@@ -24,3 +24,5 @@ docker-compose pull
 [How to create account using wallet](https://github.com/DEIPworld/deip-testnet/blob/master/docs/create-account-using-wallet.md)
 
 [How to become a Block Producer](https://github.com/DEIPworld/deip-testnet/blob/master/docs/how-to-become-a-block-producer.md)
+
+[How to resync node](https://github.com/DEIPworld/deip-testnet/blob/master/docs/resync-node.md)

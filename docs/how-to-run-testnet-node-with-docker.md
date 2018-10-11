@@ -75,3 +75,6 @@ You will see id, name and some other properties of all running containers. Once 
 ```
 docker attach f92768f1dd89
 ```
+
+#### Resync node
+[See here](https://github.com/DEIPworld/deip-testnet/blob/master/docs/resync-node.md)
