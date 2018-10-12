@@ -28,6 +28,6 @@ services:
     restart: on-failure
     volumes:
     - ./data:/var/lib/wallet
-    command: ["-s", "ws://82.196.2.5:8090"]
+    command: ["-s", "ws://82.196.2.5:8090", "-w", "/var/lib/wallet/wallet.json"]
     stdin_open: true
     tty: true
