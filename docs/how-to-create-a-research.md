@@ -26,7 +26,7 @@ As result you should see a list of all proposals in research group.
 vote_proposal "yourAccountName" id_of_proposal id_of_research_group true
 ```
 When enough accounts vote for proposal and  quorum percent is achieved - proposal will be accepted and research is created.
-6. To list all your researches use `list_my_researches` command.
+6. To list all researches of research group use `get_researches_by_research_group research_group_id` command.
 
 
 
