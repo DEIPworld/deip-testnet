@@ -13,9 +13,9 @@
 - hardcap (i.e. "10.000 TESTS")
 - broadcast: boolean showing whether or not you want to broadcast this transaction
 ```
-propose_create_research "yourAccountName" "research title" "research abstract" "research-permlink" 0 0 1000 [0, 100] true
+propose_start_token_sale "yourAccountName" 53 2 1539710709 1539750700 1000 "1.000 TESTS" "10.000 TESTS" true
 ```
-After transaction was included in block, proposal to start a research will be created.
+After transaction was included in block, proposal to start a research token sale will be created.
 4. To list proposals in research group use following method and provide desired research group id:
 ```
 list_research_group_proposals id_of_research_group
