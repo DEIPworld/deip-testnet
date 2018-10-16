@@ -51,5 +51,7 @@ contribute_to_token_sale bob 1 "10.000 TESTS" true
 
 If softcap and endtime is reached - all contributors will get their tokens. If hardcap is reached after someone's contribution - token sale finishes immideately.
 
+To list account's research tokens use `list_account_research_tokens account_name` command.
+
 
 
