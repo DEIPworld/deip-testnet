@@ -16,6 +16,7 @@
 propose_start_token_sale "yourAccountName" 53 2 1539710709 1539750700 1000 "1.000 TESTS" "10.000 TESTS" true
 ```
 After transaction was included in block, proposal to start a research token sale will be created.
+
 4. To list proposals in research group use following method and provide desired research group id:
 ```
 list_research_group_proposals id_of_research_group
@@ -34,9 +35,9 @@ list_research_token_sales 0 100
 ```
 
 ## Token sale statuses
-1 - Active (token sale is ongoing)
-2 - Finished (token sale is completed)
-3 - Expired (token sale is expired)
+1 - Active (token sale is ongoing) \
+2 - Finished (token sale is completed) \
+3 - Expired (token sale is expired) \
 4 - Inactive (token sale is not started yet)
 
 # Contribute to token sale
