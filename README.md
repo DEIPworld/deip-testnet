@@ -36,3 +36,5 @@ docker-compose pull
 [How to invite member to research group](https://github.com/DEIPworld/deip-testnet/blob/master/docs/invite-to-research-group.md)
 
 [How to exclude member from research group](https://github.com/DEIPworld/deip-testnet/blob/master/docs/exclude-from-research-group.md)
+
+[How to token sale](https://github.com/DEIPworld/deip-testnet/blob/master/docs/how-to-research-token-sale.md)
