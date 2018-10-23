@@ -28,7 +28,7 @@ vote_proposal "yourAccountName" id_of_proposal id_of_research_group true
 ```
 When enough accounts vote for proposal and  quorum percent is achieved - proposal will be accepted and research token sale is created. Keep in mind that token sale will not start until specified 'start time'.
 6. To list all token sales use `list_research_token_sales` command with following parameters:
-- lower bound id to start listing from (suggested to set to 0 unlsee you want to list starting from some specific id)
+- lower bound id to start listing from (suggested to set to 0 unless you want to list starting from some specific id)
 - limit of entries to list (default: 100, maximum: 1000)
 ```
 list_research_token_sales 0 100
@@ -50,7 +50,7 @@ To contribute to token sale you can use `contribute_to_token_sale` command with 
 contribute_to_token_sale bob 1 "10.000 TESTS" true
 ```
 
-If softcap and endtime is reached - all contributors will get their tokens. If hardcap is reached after someone's contribution - token sale finishes immideately.
+If softcap and endtime is reached - all contributors will get their tokens. If hardcap is reached after someone's contribution - token sale finishes immediately.
 
 To list account's research tokens use `list_account_research_tokens account_name` command.
 
