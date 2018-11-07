@@ -16,6 +16,7 @@
 propose_create_research "yourAccountName" "research title" "research abstract" "research-permlink" 0 0 1000 [0, 100] true
 ```
 After transaction was included in block, proposal to start a research will be created.
+
 4. To list proposals in research group use following method and provide desired research group id:
 ```
 list_research_group_proposals id_of_research_group
