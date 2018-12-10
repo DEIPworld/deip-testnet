@@ -2,7 +2,7 @@ version: "3"
 
 services:
   node:
-    image: deipdev/testnet:node_a2aa3b6f
+    image: deipdev/testnet:node_latest
     restart: on-failure
     ports:
     - "8090:8090"
@@ -13,7 +13,7 @@ services:
     env_file:
     - config/node.env
   full_node:
-    image: deipdev/testnet:fullnode_a2aa3b6f
+    image: deipdev/testnet:fullnode_latest
     restart: on-failure
     ports:
     - "8090:8090"
@@ -24,7 +24,7 @@ services:
     env_file:
     - config/fullnode.env
   wallet:
-    image: deipdev/testnet:wallet_a2aa3b6f
+    image: deipdev/testnet:wallet_latest
     restart: on-failure
     volumes:
     - ./data:/var/lib/wallet
